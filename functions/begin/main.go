@@ -1,7 +1,7 @@
 // functions/begin/main.go
 package main
 
-// simple greet function
+// create simple greet function
 //
 
 // greetWithName returns a greeting with the name
@@ -15,7 +15,7 @@ package main
 //
 
 func main() {
-	// invoke greet function
+	// invoke greet function 
 	// fmt.Println(greet())
 
 	// invoke greetWithName function
