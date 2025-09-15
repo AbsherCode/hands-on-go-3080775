@@ -1,11 +1,18 @@
 // functions/begin/main.go
 package main
+import(
+	"fmt"
+)
 
 // create simple greet function
-//
+func greet() string {
+	return "Hello"
+}
 
 // greetWithName returns a greeting with the name
-//
+func greetWithName(name string) string {
+	return "Hello "+ name
+}
 
 // greetWithName returns a greeting with the name and age of the person
 //
@@ -19,7 +26,7 @@ func main() {
 	// fmt.Println(greet())
 
 	// invoke greetWithName function
-	// fmt.Println(greetWithName("Toni"))
+	fmt.Println(greetWithName("Toni"))
 
 	// invoke divide function
 	// fmt.Println(divide(10, 2))
