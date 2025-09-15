@@ -29,7 +29,7 @@ func main() {
 
 	// invoke greetWithName function
 	fmt.Println(greetWithName("Toni"))
-	fmt.Println(greetWithNameAndAge("Toni", 34))
+	fmt.Println(greetWithNameAndAge("Toni", 35))
 	// invoke divide function
 	// fmt.Println(divide(10, 2))
 
