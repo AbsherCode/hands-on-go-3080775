@@ -15,7 +15,9 @@ func greetWithName(name string) string {
 }
 
 // greetWithName returns a greeting with the name and age of the person
-//
+func greetWithNameAndAge(name string, age int) string {
+	return "Hello "+ name + "!" + "  You are " + fmt.Sprint(age) + " years old."
+}
 
 // divide divides two numbers and returns the result
 // if the second number is zero, it returns  error
@@ -27,7 +29,7 @@ func main() {
 
 	// invoke greetWithName function
 	fmt.Println(greetWithName("Toni"))
-
+	fmt.Println(greetWithNameAndAge("Toni", 34))
 	// invoke divide function
 	// fmt.Println(divide(10, 2))
 
